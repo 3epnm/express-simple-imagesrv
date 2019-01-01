@@ -20,8 +20,8 @@ const { winston, morgan } = require('./logger.js');
 
 const options = {
   base_url: '/image/',
-  upload_dir: __dirname + '/data/uploads/',
-  cache_dir: __dirname + '/data/cache/',
+  upload_dir: '/home/mb2/data/uploads/',
+  cache_dir: '/home/mb2/data/cache/',
   cache_mgr: new CacheMgr(),
   logger: winston
 }
