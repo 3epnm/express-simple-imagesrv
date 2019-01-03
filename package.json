@@ -1,14 +1,15 @@
 {
-  "name": "imgsrv",
-  "version": "1.0.0",
+  "name": "express-simple-images",
+  "version": "0.0.1",
   "description": "",
   "main": "server.js",
   "scripts": {
     "server": "node server.js",
     "cluster": "node cluster.js"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Marcel Bretschneider <info@3epnm.de>",
+  "homepage": "https://github.com/3epnm/express-simple-images",
+  "license": "",
   "dependencies": {
     "express": "^4.16.4",
     "json5": "^2.1.0",
@@ -30,5 +31,9 @@
     "minimist": "^1.2.0",
     "request": "^2.88.0",
     "request-promise-native": "^1.0.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/3epnm/express-simple-images"
   }
 }

@@ -19,6 +19,7 @@ passport.use(new Strategy(
 const { winston, morgan } = require('./logger.js');
 
 const options = {
+  base_route: '/',
   base_url: '/image/',
   upload_dir: '/home/mb2/data/uploads/',
   cache_dir: '/home/mb2/data/cache/',
